@@ -1,0 +1,25 @@
+\
+        \documentclass{article}
+        \usepackage{amsmath}
+        \title{Mamba: Linear-Time Sequence Modeling with Selective State Spaces}
+        \author{Albert Gu \and Tri Dao}
+        \date{2023}
+        \begin{document}
+        \maketitle
+
+        \begin{abstract}
+        Foundation models are typically built on the Transformer architecture. We propose a
+        selective state space sequence model that scales linearly in sequence length while
+        retaining strong modeling quality.
+        \end{abstract}
+
+        \section{Selective State Space Models}
+        The model parameters are functions of the input, which allows the state space to
+        select what to remember and what to ignore along the sequence.
+
+        \section{Implementation}
+        The method can be implemented with a hardware-aware parallel scan. The reference
+        implementation is maintained by the authors.
+
+        \bibliographystyle{plain}
+        \end{document}
