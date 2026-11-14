@@ -1,0 +1,7 @@
+{
+  "request_id": "CR-2026-041",
+  "product_line": "Perception & Sensor Fusion",
+  "min_verification_hours": 72,
+  "policy_source": "policies/product-lines/perception/ENG-POL-027.md",
+  "upstream_repository": "state-spaces/mamba"
+}
